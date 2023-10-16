@@ -1,0 +1,75 @@
+body{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    font: italic small-caps 600 12px/0.8vw helvetica;
+}
+
+.structural{
+    padding:10px;
+    margin:10px;
+}
+
+h1{
+    color:aliceblue;
+    font-size: 24px;
+}
+
+h2{
+    color:aqua;
+    font-size: 18px;
+}
+
+main{
+    height: 70vh;
+}
+
+img{
+    border:10px dashed green;
+    width:90%;
+    height:80%;
+}
+
+figure{
+    background-color: blueviolet;
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+#catimage1 {
+    float: left;
+}
+
+#catimage2 {
+    float:right;
+}
+
+section{
+    clear: both;
+}
+
+figcaption{
+    font-weight: 900;
+    font-size: 16px;
+    color: brown;
+    padding: 5px;
+}
+
+a{
+    color:hotpink;
+}
+
+a:hover{
+    color:black;
+}
+
+li{
+    list-style-type: georgian;
+    line-height: 40px;
+}
+
+header, footer{
+    background-color: gold;
+}
